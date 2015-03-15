@@ -1,0 +1,9 @@
+1) Download gnulib with git to your home directory.
+2) Run ~/gnulib/gnulib-tool --import fts progname fstatat strerror
+   Don't worry about following the instructions it prints;
+   I have already done that for you.
+3) Run autoreconf --install.
+4) Run ./configure
+5) Run make
+6) Run src/testgnulib to see if the code works.
+7) Run 'make dist' to make a .tar.gz file for testing on other platforms.
